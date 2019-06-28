@@ -1,11 +1,11 @@
 # Site settings
-author: Kevin O'Brien
-title: 
+author: Kevin OBrien
+title: Kevin Blog
 header-img: img/home-bg.png
 email: kpobrien@buffalo.edu
-copyright_name: Kevin O'Brien
+copyright_name: Kevin OBrien
 description: > # this means to ignore newlines until "baseurl:"
-  
+  A coding blog
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kpobrien4
