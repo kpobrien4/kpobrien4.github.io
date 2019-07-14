@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "CLI Data Gem Portfolio Project - Charity Roulette"
-date:       2019-07-14 14:55:28 +0000
+date:       2019-07-14 10:55:29 -0400
 permalink:  cli_data_gem_portfolio_project_-_charity_roulette
 ---
 
@@ -13,6 +13,7 @@ Upon seeing this, I came up with an idea that was to function as a sort of roule
 I immediately began watching some of the resource videos, like Avi Flombaum's Daily Deals video, which was incredibly helpful in building the gem, and the recorded lectures from Enoch Griffith on web scraping. These were instrumental in me completing the project, as they created a sort of framework that I could take inspiration from as I generated my own ideas and methods. 
 
 I began with the CLI, or the command line interface of the project which starts with a welcome to my gem, and then a list of the initial categories scraped from the website. In order to scrape these categories, I used the nokogiri gem, and inspected the sites HTML until I found exactly what I was looking for, the name of the category. The code to scrape these categories looked something like this:
+
 `    def self.scrape_categories
         doc = Nokogiri::HTML(open("https://www.charitynavigator.org/index.cfm?bay=content.view&cpid=4529"))
         doc.search(".category.clearfix.list-url-discover div.cat-box").each do |div| 
