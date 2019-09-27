@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "JavaScript Intro"
-date:       2019-09-27 02:08:23 +0000
+date:       2019-09-26 22:08:24 -0400
 permalink:  javascript_intro
 ---
 
