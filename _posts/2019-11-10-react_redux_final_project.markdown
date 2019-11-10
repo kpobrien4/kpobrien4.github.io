@@ -1,0 +1,15 @@
+---
+layout: post
+title:      "React Redux Final Project"
+date:       2019-11-10 17:46:33 +0000
+permalink:  react_redux_final_project
+---
+
+
+Five months ago, before my course at Flatiron had begun, I had no previous coding knowledge. I did not know entirely what to expect from the program, however to think that I would be able to create an app using this strange framework called "react" in just a couple of days would have seemed entirely outlandish. However, now equipped with the knowledge that I have accrued of React and Redux, I have finally reached the end of my journey at Flatiron school with my project Track Notes. 
+
+One of the biggest difficuties in this project was coming up with an initial idea. I felt that since it was my final project the idea should be something impactful and important to me. I looked to various things that I would personally find useful in my everyday life, and as a music producer I found that I often have many forgotten music files on my computer of projects with no further direction in sight. Thus I decided on Track Notes, a basic notes app that allows you to store the title of a particular musical project, and insert notes that you have as you are working so you can pick right back up where you left off. 
+
+The requirements for the project were to have at least two container components, five stateless components, three routes, and ascynchronous redux through the use of Thunk middleware. My project made an asynchronous fetch to my database of tracks, and received the attributes of a particular track. From here, once the data was persisted in the front end, I was tasked with building out the components for the app. The first stateless component I built was the Home component, which served to greet the user, and using the second component, the Nav bar, they could navigate the rest of the application. This navbar contained the routes to the new page, and the index page. The new page contained the Form component which was the first container component. This form took in the input of a track title and notes, and persisted that data through the add track action in the database. Once it was created, the new track was displayed in the other container components ListItem and List. The ListItem component described how a particular track would be formatted and displayed as a subset of the List component. ListItem imported the Card, CardComponent, and CardTitle presentational components which provided the formatting for the tracks. Also included in this ListItem was a link to the final route, the show page for each individual track. This utilized the ListShow container component to render all of the information about each track, so you could view the notes for a particular project. 
+
+Upon meeting the requirements, there are many features that I wish to continue to add, such as delete functionality, time stamps for each project, and a search form to locate a track. Although this was my final project, I feel as though it is just the beginning of my coding journey, and I hope to bring these React and Redux skills with me in my career search!
