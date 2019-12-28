@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Finding my Path, through ALGORITHMS"
-date:       2019-12-28 16:17:51 +0000
+date:       2019-12-28 11:17:52 -0500
 permalink:  finding_my_path_through_algorithms
 ---
 
