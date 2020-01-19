@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Python Classical Mechanics"
-date:       2020-01-19 17:37:17 +0000
+date:       2020-01-19 12:37:18 -0500
 permalink:  python_classical_mechanics
 ---
 
